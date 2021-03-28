@@ -68,9 +68,11 @@ gdb -q --symbol=test-1.symbol --exec=test-release
 #### GDB安装插件
 git clone https://github.com/gatieme/GdbPlugins.git ~/GdbPlugins
 
-#echo "source ~/GdbPlugins/peda/peda.py" > ~/.gdbinit
-#echo "source ~/GdbPlugins/gef/gef.py" > ~/.gdbinit
-#echo "source ~/GdbPlugins/gdbinit/gdbinit" > ~/.gdbinit
+echo "source ~/GdbPlugins/peda/peda.py" > ~/.gdbinit
+
+echo "source ~/GdbPlugins/gef/gef.py" > ~/.gdbinit
+
+echo "source ~/GdbPlugins/gdbinit/gdbinit" > ~/.gdbinit
 
 
 
